@@ -1,1 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&family=Staatliches&display=swap');
 
+.container{
+    border: 2px solid burlywood;
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 90px;
+}
+h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 60px; 
+    color: #323538;   
+}
+h3{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px; 
+    color: #43464A; 
+}
+p{
+    font-family: 'Source Serif Pro', serif;
+}
+li{
+    font-family: 'Source Serif Pro', serif;
+}
+.dates{
+    position: relative;
+    top: 90px;
+    left: 1100px;
+}
