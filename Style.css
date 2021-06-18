@@ -35,6 +35,9 @@ li{
     font-family: 'Source Serif Pro', serif;
 }
 .msu{
-    width:200px !important;
+    width: 150px !important;
     height: 35px !important;
+}
+.checho{
+    width:100px !important;
 }
