@@ -5,6 +5,10 @@
     padding: 0.5rem;
     margin: 5rem;
 }
+.container img{
+    width: 150px;
+    height: 70px;
+}
 h1{
     font-family: 'Staatliches', cursive;
     font-size: 90px;
@@ -19,39 +23,18 @@ h3{
     font-size: 30px; 
     color: #43464A; 
 }
+h4{
+    font-family: 'Staatliches', cursive;
+    font-size: 20px; 
+    color: #43464A;   
+}
 p{
     font-family: 'Source Serif Pro', serif;
 }
 li{
     font-family: 'Source Serif Pro', serif;
 }
-.date0{
-    position: absolute;
-    top:90%;
-    left: 80%;
-}
-.date1{
-    position: absolute;
-    top:130%;
-    left: 80%;
-}
-.date2{
-    position: absolute;
-    top:180%;
-    left: 80%;
-}
-.date3{
-    position: absolute;
-    top:225%;
-    left: 80%;
-}
-.date4{
-    position: absolute;
-    top:253%;
-    left: 80%;
-}
-.date5{
-    position: absolute;
-    top:284%;
-    left: 80%;
+.msu{
+    width:200px !important;
+    height: 35px !important;
 }
