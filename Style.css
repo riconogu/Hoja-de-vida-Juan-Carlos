@@ -29,10 +29,17 @@ p{
 li{
     font-family: 'Source Serif Pro', serif;
 }
+.big-container{
+    background-color: burlywood;
+}
+.mini-container{
+    padding: 3rem;
+    margin: 5rem;
+}
 .container{
     display: flex;
-    flex-direction: row;
-
+    border-bottom: 0.01em solid black;
+    padding: 3rem;
     }
     
 .container img{
@@ -42,7 +49,9 @@ li{
 .experience{
     max-width: 80%;
 }
-
+.eduitem{
+    min-width: 80%;
+}
 .msu{
     width: 150px !important;
     height: 35px !important;
