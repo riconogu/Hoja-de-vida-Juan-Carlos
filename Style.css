@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&family=Staatliches&display=swap');
 
-.container{
-    Width: 86%;
-    padding: 0.5rem;
-    margin: 5rem;
-}
-.container img{
-    width: 150px;
-    height: 70px;
-}
+
 h1{
     font-family: 'Staatliches', cursive;
     font-size: 90px;
@@ -33,6 +25,20 @@ p{
 }
 li{
     font-family: 'Source Serif Pro', serif;
+}
+.container{
+    display: inline-flex;
+    }
+    
+.container img{
+        width: 150px;
+        height: 70px;
+    }
+.experiece{
+    flex-grow: 2 80px;
+}    
+.date{
+    flex-grow: 2 90px;
 }
 .msu{
     width: 150px !important;
