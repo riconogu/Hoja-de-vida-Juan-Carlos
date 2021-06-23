@@ -30,7 +30,7 @@ li{
     font-family: 'Source Serif Pro', serif;
 }
 .big-container{
-    background-color: burlywood;
+    background-color: whitesmoke;
 }
 .mini-container{
     padding: 3rem;
@@ -51,6 +51,10 @@ li{
 }
 .eduitem{
     min-width: 80%;
+}
+.msu0{
+    width: 35px !important;
+    height: 40px !important;
 }
 .msu{
     width: 150px !important;
