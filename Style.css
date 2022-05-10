@@ -1,68 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&family=Staatliches&display=swap');
-
-
 body{
-    margin: 5rem;
+    background-color:#f0e1b6;
+    color: #494a57;
 }
-h1{
-    font-family: 'Staatliches', cursive;
-    font-size: 90px;
+header{
+    background-color: #481f0f;
+}
+header ul{
+    color: #f0e1b6;
+}
+header a{
+    color: #f0e1b6;
+}
+.introduction{
+    background-image: url("Stock/DSC_0141.JPG"); 
+}
+
+.introduction h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+.introduction img{
+    height: 506.5px;
+    width: 283.5px;
 }
 h2{
-    font-family: 'Staatliches', cursive;
-    font-size: 60px; 
-    color: #323538;   
+    color: #f0e1b6;
 }
-h3{
-    font-family: 'Staatliches', cursive;
-    font-size: 30px; 
-    color: #43464A; 
-}
-h4{
-    font-family: 'Staatliches', cursive;
-    font-size: 20px; 
-    color: #43464A;   
-}
-p{
-    font-family: 'Source Serif Pro', serif;
-}
-li{
-    font-family: 'Source Serif Pro', serif;
-}
-.big-container{
-    background-color: whitesmoke;
-}
-.mini-container{
-    padding: 3rem;
-    margin: 5rem;
-}
-.container{
-    display: flex;
-    border-bottom: 0.01em solid black;
-    padding: 3rem;
-    }
-    
-.container img{
-        width: 150px;
-        height: 70px;
-    }
-.experience{
-    max-width: 80%;
-}
-.eduitem{
-    min-width: 80%;
-}
-.msu0{
-    width: 35px !important;
-    height: 40px !important;
-}
-.msu{
-    width: 150px !important;
-    height: 35px !important;
-}
-.checho{
-    width:100px !important;
-}
-.mato{
-    width:100px !important;
+.section{
+    background-color: #a04b12;
 }
