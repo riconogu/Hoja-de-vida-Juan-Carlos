@@ -1,32 +1,84 @@
 body{
-    background-color:#f0e1b6;
-    color: #494a57;
+    background-color:white;
+    color: black;
 }
 header{
-    background-color: #481f0f;
-}
-header ul{
-    color: #f0e1b6;
-}
-header a{
-    color: #f0e1b6;
-}
-.introduction{
-    background-image: url("Stock/DSC_0141.JPG"); 
+    background-image: url("Stock/Chicago.jpg"); 
+    height: 900px;
+    width: 100%;
+    border: #481f0f solid;
 }
 
-.introduction h1{
-    color: aliceblue;
-    text-align: center;
-    font-size: 25px;
-}
-.introduction img{
-    height: 506.5px;
-    width: 283.5px;
-}
-h2{
+.nav a{
     color: #f0e1b6;
 }
+
+nav{
+    background-color: rgb(72, 31, 15, 0.5);
+    padding: 20px;
+}
+
+nav li{
+    padding: 0px 20px;
+    float: right;
+}
+
+.nav{
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+}
+h3{
+    color: #f0e1b6;
+    font-size: 30px;
+    position: relative;
+    
+}
+
+h1{
+    position: relative;
+    top: 28rem;
+    display:inline;
+    bottom: 20px;
+    left:60px;
+    color: whitesmoke;
+    background-color: rgb(160, 75, 18, 0.5);
+    font-size: 50px;
+}
+.introduction img{
+    visibility: visible;
+    position:relative;
+    top: 1rem;
+    left: 3.5rem;
+    height: 400px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.intro{
+    background-color: whitesmoke;
+    position: relative;
+    top: 13rem;
+    float: right;
+    width: 450px;
+    border: #f0e1b6 solid 2px;
+}
+#intro{
+    margin-top: 50px;
+}
+
+.intro p{
+    text-align: center;
+}
+
+h2{
+    color: #481f0f;
+    font-size: 25px;
+    padding: 25px;
+}
+.content{
+    margin-top: 10rem;
+}
 .section{
-    background-color: #a04b12;
+  border: solid 2px #481f0f;
 }
